@@ -1,13 +1,3 @@
-/*
- * Asterisk Controlling Arduino Example
- *
- * A basic example displaying the ability of Asterisk
- * open-source PBX to control an LED on an Arduino with
- * an ethernet shield.
- * 
- * Dan Wagoner
- * http://www.nerdybynature.com
- */
 
 #include <Ethernet.h>
 
