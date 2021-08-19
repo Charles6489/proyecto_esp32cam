@@ -7,17 +7,17 @@
 //#define pinAlarma 13
 //#define pinBoton 16
 // Replace with your network credentials
-const char* ssid = "Ambafiber Orozco";
-const char* password = "0939979649";
+const char* ssid = "wifi";
+const char* password = "clave";
 //float sensorValue;
 
 // Initialize Telegram BOT
-#define BOTtoken "1909985851:AAGz-B7Zq_RkcSstrYzF2ubRdEJ4HV1j8UE"  // your Bot Token (Get from Botfather)
+#define BOTtoken "18569985851:AAGz-B7Zq_RkcSsbbdgdfjgffRdEJ4HV1j8UE"  // your Bot Token (Get from Botfather)
 
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
-#define CHAT_ID "1709607424"
+#define CHAT_ID "18095697427"
 #define BUTTON 0
 
 #ifdef ESP8266
