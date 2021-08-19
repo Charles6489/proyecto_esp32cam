@@ -11,8 +11,8 @@
 #define CAMERA_MODEL_AI_THINKER 
 #include "camera_pins.h"
 // Replace with your network credentials
-const char* ssid     = "Ambafiber Orozco";
-const char* password = "0939979649";
+const char* ssid     = "wifi";
+const char* password = "clave";
 String serverName = "34.125.125.114"; 
 String serverPath = "/upload.php";     // The default serverPath should be upload.php
 void startCameraServer();
@@ -22,10 +22,10 @@ const int serverPort = 80;
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
-String chatId = "1709607424";
+String chatId = "18056656f24";
 WiFiClient client;
 // Initialize Telegram BOT
-String BOTtoken = "1909985851:AAGz-B7Zq_RkcSstrYzF2ubRdEJ4HV1j8UE";
+String BOTtoken = "1fgdfg0fhdhdh1:AAGz-B7Zq_RkcSbdhdhdhEJ4HV1j8UE";
 
 bool sendPhoto1 = false;
 const int buzzer = 15;
